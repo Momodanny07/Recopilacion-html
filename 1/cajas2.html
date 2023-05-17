@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <title>Cajas</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="mijs.js"></script>
+ </head>
+ <body>
+  <div class="caja" id="caja1">
+   <details>
+    <summary>Problema</summary>
+    <div>
+     <p>Hacer una aplicación que solicite 2 numeros y muestre la suma</p>
+    </div>
+   </details>
+   <details>
+    <summary>HTML</summary>
+    <div>
+     <p>
+        <h1>Suma de dos números</h1>
+        <label for="numero1">Número 1:</label>
+        <input type="number" id="numero1">
+        <br>
+        <label for="numero2">Número 2:</label>
+        <input type="number" id="numero2">
+        <br>
+        <button onclick="sumarNumeros()">Calcular suma</button>
+        <br>
+        <p id="resultado"></p>
+      <script>
+       function sumarNumeros() {
+        // Obtener los valores ingresados por el usuario
+        var num1 = parseInt(document.getElementById('numero1').value)
+        var num2 = parseInt(document.getElementById('numero2').value)
+
+        // Calcular la suma
+        var suma = num1 + num2
+
+        // Mostrar el resultado
+        document.getElementById('resultado').innerHTML = 'La suma es: ' + suma
+       }
+      </script>
+     </p>
+    </div>
+   </details>
+   <details>
+    <summary>Seudocódigo</summary>
+    <div>
+     <p>
+      Algoritmo Suma <br />
+      Definir num1 Como Entero <br />
+      Definir num2 Como Entero <br />
+      Escribir "Digite dos numeros" <br />
+      Leer num1, Leer num2 <br />
+      Escribir "La suma es ", num1 + num2 <br />
+      FinAlgoritmo
+     </p>
+    </div>
+   </details>
+   <details>
+    <summary>PSEINT</summary>
+    <div>
+     <img src="img/suma.png" alt="" />
+    </div>
+   </details>
+  </div>
+  <div class="caja" id="caja2">
+   <details>
+    <summary>Problema</summary>
+    <div>
+     <p>
+      Escribir un programa en seudocódigo que calcule la velocidad de un
+      proyectil que recorre 2 Km en 5 minutos. Expresar el resultado en
+      metros/segundo.
+     </p>
+    </div>
+   </details>
+   <details>
+    <summary>HTML</summary>
+    <div>
+     <p>Mostrar pagina</p>
+    </div>
+   </details>
+   <details>
+    <summary>Seudocódigo</summary>
+    <div>
+     <p>Agregar el seudocódigo PSEINT</p>
+    </div>
+   </details>
+   <details>
+    <summary>PSEINT</summary>
+    <div>
+     <p>Agregar imagen del diagrama de flujo</p>
+    </div>
+   </details>
+  </div>
+  <div class="caja" id="caja3">
+   <details>
+    <summary>Problema</summary>
+    <div>
+     <p>
+      El ancianato San José requiere una aplicación que determine cual de tres
+      personas es la que tiene mayor edad, solicitando las tres edades por
+      teclado
+     </p>
+    </div>
+   </details>
+   <details>
+    <summary>HTML</summary>
+    <div>
+     <p>Mostrar pagina</p>
+    </div>
+   </details>
+   <details>
+    <summary>Seudocódigo</summary>
+    <div>
+     <p>Agregar el seudocódigo PSEINT</p>
+    </div>
+   </details>
+   <details>
+    <summary>PSEINT</summary>
+    <div>
+     <p>Agregar imagen del diagrama de flujo</p>
+    </div>
+   </details>
+  </div>
+  <div class="caja" id="caja4">
+   <details>
+    <summary>Problema</summary>
+    <div>
+     <p>
+      Realice un programa en seudocódigo que solicite una clave de acceso para
+      ingresar al sistema de información, el proceso debe terminar cuando el
+      usuario tenga 3 intentos fallidos con clave errónea
+     </p>
+    </div>
+   </details>
+   <details>
+    <summary>HTML</summary>
+    <div>
+     <p>Mostrar pagina</p>
+    </div>
+   </details>
+   <details>
+    <summary>Seudocódigo</summary>
+    <div>
+     <p>Agregar el seudocódigo PSEINT</p>
+    </div>
+   </details>
+   <details>
+    <summary>PSEINT</summary>
+    <div>
+     <p>Agregar imagen del diagrama de flujo</p>
+    </div>
+   </details>
+  </div>
+ </body>
+</html>
